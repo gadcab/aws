@@ -18,7 +18,7 @@ RUN npm install -g serve
 
 WORKDIR /aws
 
-COPY --from=build /app/build .
+COPY --from=build /aws/build .
 
 EXPOSE 3000
 
