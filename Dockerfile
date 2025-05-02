@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run start
+RUN npm run build
 
 # Étape 2 : servir l'app avec "serve"
 FROM node:18
